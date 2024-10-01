@@ -32,7 +32,7 @@ with DAG(
     #schedule=timedelta(days=1),
     schedule="0 9 * * *",
     start_date=datetime(2023, 1, 1),
-    end_date=datetime(2023,1,2),
+    end_date=datetime(2023,1,30)
     catchup=True,
     tags=['notify', 'line'],
 ) as dag:
